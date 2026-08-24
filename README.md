@@ -133,15 +133,3 @@ The evaluation includes image quality metrics such as:
 * **MSE (Mean Squared Error)**
 * **PSNR (Peak Signal-to-Noise Ratio)**
 * **SSIM (Structural Similarity Index)**
-
-Run the notebooks in the following order:
-
-```text
-01_SplitData.ipynb
-        ↓
-02_TrainSRGAN.ipynb
-        ↓
-03_UseSRGAN.ipynb
-        ↓
-04_EvaluationSRGAN.ipynb
-```
