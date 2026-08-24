@@ -11,6 +11,9 @@ srgan/
 │   ├── train/
 │   └── val/
 │
+├── utils/
+│   └── model.py
+│
 ├── 01_SplitData.ipynb
 ├── 02_TrainSRGAN.ipynb
 ├── 03_UseSRGAN.ipynb
@@ -32,6 +35,7 @@ srgan/
 | `dataset/`                 | Stores the original image dataset used for training.                                 |
 | `dataset_SRGAN/`           | Stores the SRGAN image dataset that is generated from the original dataset.          |
 | `srgan`                    | Stores the dataset used to train the SRGAN model.                                    |
+| `utils`                    | Stores the SRGAN Generator. (model.py)                                               |
 | `01_SplitData.ipynb`       | Splits the dataset into training and validation sets.                                |
 | `02_TrainSRGAN.ipynb`      | Trains the SRGAN model using the prepared dataset.                                   |
 | `03_UseSRGAN.ipynb`        | Uses the trained SRGAN model to generate Super-Resolution (SR) images.               |
