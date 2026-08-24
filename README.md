@@ -129,7 +129,7 @@ Make sure the path to `model.pth` is correctly configured before running the not
 The generated images will be saved as:
 
 ```text
-dataset_SRGAN
+dataset_SRGAN/
 ```
 
 ---
