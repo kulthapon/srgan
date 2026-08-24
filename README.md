@@ -57,7 +57,7 @@ Follow the steps below in order to train and evaluate the SRGAN model.
 First, clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/kulthapon/srgan.git
 cd srgan
 ```
 
