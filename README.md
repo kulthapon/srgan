@@ -126,6 +126,12 @@ After training is complete, run **`03_UseSRGAN.ipynb`** to load the trained mode
 
 Make sure the path to `model.pth` is correctly configured before running the notebook.
 
+The generated images will be saved as:
+
+```text
+dataset_SRGAN
+```
+
 ---
 
 ### 6. Run `04_EvaluationSRGAN.ipynb`
