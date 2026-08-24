@@ -7,6 +7,10 @@ srgan/
 ├── dataset/
 ├── dataset_SRGAN/
 │
+├── srgan/
+│   ├── train/
+│   └── val/
+│
 ├── 01_SplitData.ipynb
 ├── 02_TrainSRGAN.ipynb
 ├── 03_UseSRGAN.ipynb
@@ -26,7 +30,8 @@ srgan/
 | File / Folder              | Description                                                                          |
 | -------------------------- | ------------------------------------------------------------------------------------ |
 | `dataset/`                 | Stores the original image dataset used for training.                                 |
-| `dataset_SRGAN/`           | Stores the processed dataset prepared for SRGAN training.                            |
+| `dataset_SRGAN/`           | Stores the SRGAN image dataset that is generated from the original dataset.          |
+| `srgan`                    | Stores the dataset used to train the SRGAN model.                                    |
 | `01_SplitData.ipynb`       | Splits the dataset into training and validation sets.                                |
 | `02_TrainSRGAN.ipynb`      | Trains the SRGAN model using the prepared dataset.                                   |
 | `03_UseSRGAN.ipynb`        | Uses the trained SRGAN model to generate Super-Resolution (SR) images.               |
@@ -87,7 +92,7 @@ Run all cells in **`01_SplitData.ipynb`** to prepare and split the dataset.
 The processed dataset will be stored in:
 
 ```text
-dataset_SRGAN/
+srgan/
 ```
 
 ---
