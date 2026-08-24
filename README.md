@@ -52,11 +52,18 @@ srgan/
 
 Follow the steps below in order to train and evaluate the SRGAN model.
 
-### 1. Prepare CUDA
+### 1. Clone Repository and Prepare CUDA
 
-Make sure that **CUDA** and the required GPU environment are properly installed and configured before running the notebooks.
+First, clone the repository:
 
-Verify that PyTorch can detect the GPU:
+```bash
+git clone <repository-url>
+cd srgan
+```
+
+Make sure that **CUDA** is installed and properly configured on your system before running the notebooks.
+
+You can verify that CUDA is available through PyTorch:
 
 ```python
 import torch
@@ -70,7 +77,6 @@ The output should be:
 True
 ```
 
----
 
 ### 2. Prepare the Dataset
 
