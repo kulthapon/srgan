@@ -48,7 +48,7 @@ srgan/
 
 ---
 
-## How to Run
+# How to Run
 
 Follow the steps below in order to train and evaluate the SRGAN model.
 
