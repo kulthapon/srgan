@@ -42,7 +42,7 @@ srgan/
 | `04_EvaluationSRGAN.ipynb` | Evaluates the SRGAN results using image quality metrics such as MSE, PSNR, and SSIM. |
 | `result/`                  | Stores training results and generated outputs.                                       |
 | `epoch_images/`            | Stores generated images during training for monitoring model progress.               |
-| `model.pth`                | Stores the trained SRGAN model weights.                                              |
+| `model.pth`                | The trained SRGAN model weights.                                                     |
 | `metric_graph/`            | Stores graphs of training metrics.                                                   |
 | `training_log/`            | Stores training logs and related information.                                        |
 
